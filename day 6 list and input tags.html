@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>list and input tags in html</title>
+    </head>
+    <body>
+
+        <!-- tables -->
+        <!-- row span, column span = merges n no.of rows or  -->
+        <table border="2" style="border-collapse: collapse;" >
+            <!-- tr= table row -->
+            <h5>student profile</h5>
+            <tr>
+                <!-- th = table heading -->
+                <th>student</th>
+                <th>Id</th>
+                <th>mail</th>
+            </tr>
+            <tr>
+                <!--td= table data  -->
+                <td>sravani</td>
+                <td>170</td>
+                <td>sravani689@gmail.com</td>
+            </tr>
+            <tr>
+                <td>shiva</td>
+                <td>134</td>
+                <td>shiva56@gmail.com</td>
+            </tr>
+            <tr>
+                <td>vinaik</td>
+                <td>179</td>
+                <td>gopikawle@gmail.com</td>
+            </tr>
+        </table>
+
+
+
+
+
+        <!--
+             list =  these are of 3 types
+             >>ordered list
+             >>unordered list
+             >>definition / descrition list
+        -->
+
+        <!-- ordered list -->
+        <!-- type = a/i/A/I -->
+        <h4>ORDERED LIST :</h4>
+        <ol type="a">
+            <li>wipro</li>
+            <li>infosys</li>
+            <li>tcs</li>
+            <li>adani</li>
+        </ol>
+        <h6> nested ordered list</h6>
+
+        <!-- nested ol -->
+        <ol type="a">
+            <li>order one</li>
+            <li>order two</li>
+            <li>order three</li>
+            <ol>
+                <li>inner one</li>
+                <li>inner two</li>
+            </ol>
+        </ol>
+
+        <br/>
+        <hr/>
+        <br/>
+
+        <!-- UNORDERED LIST  -->
+        <!-- type = square/circle/disc -->
+        <h4>UNORDERED LIST :</h4>
+        <ul type="square">
+            <li>wipro</li>
+            <li>infosys</li>
+            <li>tcs</li>
+            <li>adani</li>
+        </ul>
+
+        <!-- nested ul -->
+        <h6>nested unordered list </h6>
+        <ul>
+            <li>order one</li>
+            <li>order two</li>
+            <ul>
+                <li>inner one</li>
+                <li>order two</li>
+            </ul>
+            
+        </ul>
+
+        <!-- merged list = both ol and ul can be written together -->
+        <h6> merged list</h6>
+        <ol>
+            <li>one</li>
+            <li>two</li>
+            <ul>
+                <li>one</li>
+                <li>shiva</li>
+                <ol type="I">
+                    <li>sravani</li>
+                    <li>vinaik</li>
+                </ol>
+            </ul>
+            <li>three</li>
+            <li>four</li>
+            <li>five</li>
+        </ol>
+
+        <!-- decription/ definition list -->
+        <h4>description list</h4>
+        <dl>
+            <!-- dt = description term -->
+            <dt style="text-decoration:line-through;"> html</dt>
+            <!-- dd= description detail or definition -->
+            <dd>hyper text markup language</dd>
+            <br/>
+            <br/>
+            <dt>ssk</dt>
+            <dd>shiva shankar kodidala</dd>
+            <br/>
+            <br/>
+            <dt>css</dt>
+            <dd>cascarding style sheets</dd>
+        </dl>
+    </body>
+</html>
